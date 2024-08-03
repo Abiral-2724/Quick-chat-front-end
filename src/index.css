@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+ES:wght@100..400&display=swap');
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body ,
+button ,
+input  {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+  max-height: 100vh; 
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.sign-out-button{
+  background-color: #131334;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.sign-out{
+  margin-top: 1rem;
+  margin-right: 1rem;
+  background-color: #997af0;
+  color: white ;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  font-size: 1rem; 
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out ;
+  &:hover{
+    background-color: #4e0eff;
+  }
+}
+
+.profile{
+  margin-left: 500px;
+  margin-top: 150px;
+}
+.name{
+  color: black;
+  margin-left: -5px;
+  margin-top: 20px;
+}
+.profile-page{
+  height: 100%;
+  background-color: #295372;
+}
+
+.picker{
+  height: 100px;
+  width: 100px;
+  background-color: #4e0eff;
+  z-index: 100;
+}
+
+.input-password{
+  display: flex;
+  input{
+    width: 280px;
+    border:none;
+  }
+  span{
+    width: 30px;
+    height: 51px;
+    background-color: transparent;
+     padding-top: 16px;
+      border: 0.0111rem solid #4e0eff; 
+      border-radius: 0.4rem;
+      border-left: none;
+     text-align: center;
+  }
+}
